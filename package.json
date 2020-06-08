@@ -1,0 +1,27 @@
+{
+  "name": "@zensen/eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "ESLint config for zensen",
+  "author": "Travis J True <travis.true08@gmail.com> (http://www.travistrue.io)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zensen/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-no-only-tests": "^2.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
